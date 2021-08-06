@@ -6,10 +6,16 @@
   </div>
 </template>
 
+<script type="module">
+</script>
+
 <script>
 
 export default {
 
+  components:{
+    VueQrcodeReader
+  },
 
   data () {
     return {
